@@ -20,9 +20,9 @@ export const EmployeeList = () => {
                                 <p className='text-gray-600'>
                                     {employee.designation}
                                 </p>
-                                <p className='inline-block text-sm font-semibold mt-1'>
+                                <span className='inline-block text-sm font-semibold mt-1'>
                                     {employee.location}
-                                </p>
+                                </span>
                             </div>
                         </div>
                     ))}
